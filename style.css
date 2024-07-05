@@ -1,0 +1,24 @@
+nav > ul >li{
+    display: inline;
+    padding: none;
+}
+header{
+    background-color: rgb(35, 132, 243);
+    align-content: center;
+    padding: none;
+    margin: 0px;
+}
+.but {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Before Hover Background Color */
+    border-radius: 5px;
+    color: #000000; /* Before Hover Text Color */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  button:hover {
+    background-color: #3d306b; /* After Hover Background Color */
+    color: #000000; /* After Hover Text Color */
+  }
